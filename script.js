@@ -46,3 +46,12 @@ function register(){
     indicator.style.transform = "translateX(120px)"
 
 }
+
+
+
+// preloader
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
